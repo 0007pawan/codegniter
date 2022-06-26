@@ -13,7 +13,7 @@ class Welcome extends CI_Controller {
 	public function home()
 	{
 		$this->load->view('header');
-		$this->load->view('home_pag');
+		$this->load->view('home_page');
 		$this->load->view('footer');
 	}
 
